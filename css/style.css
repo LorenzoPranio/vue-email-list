@@ -11,3 +11,9 @@
 .col-white{
     color: white;
 }
+
+hr{
+    color: rgb(137, 43, 226);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

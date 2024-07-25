@@ -13,8 +13,8 @@
         <header class="bg-violet">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="fw-bold col-white">Vue Email List</h2>
+                    <div class="col-12 text-center p-3">
+                        <h2 class="fw-bold col-white">Email generate casualmente</h2>
                     </div>
                 </div>
             </div>
@@ -22,10 +22,11 @@
         <main>
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <ul class="list-unstyled">
+                    <div class="col-12 text-center">
+                        <ul class="list-unstyled mt-4">
                             <li v-for="(mail, index) in random_mail">
-                                <p>{{ mail }}</p>
+                                <p class="fw-bold col-violet">{{ mail }}</p>
+                                <hr>
                             </li>
                         </ul>
                     </div>
