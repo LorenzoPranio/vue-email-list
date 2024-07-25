@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bg-violet{
+    background-color: rgba(137, 43, 226, 0.6);
+}
+
+.col-white{
+    color: white;
+}
